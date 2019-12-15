@@ -1,0 +1,91 @@
+*{padding: 0;margin:0;}
+		.one{	
+			width: 1800px;
+			height: 25px;
+		}
+		.two{
+			width: 1800px;
+			height: 20px;
+			background-color: #ccc;
+			position: relative;
+		}
+		.img{
+			position: absolute;
+			margin-left: 150px;
+			margin-top:2px;
+		}
+		.three{
+			width: 1500px;
+			height: 20px;
+			overflow: hidden;
+			position: relative;
+			margin-left: 200px;
+		}
+		.four{
+			width: 400px;
+			color: red;
+			margin-left: 1000px;
+			font-size: 12px;
+		}
+		.box{
+			width: 1200px;
+			height: 380px;
+			position:  relative;
+			background-color: red;
+			margin-left: 100px;
+			overflow: hidden;
+			position: relative;
+		}
+		.slider{
+			width: 8400px;
+			position: absolute;
+			left: -1200px;
+		}
+		.slide{
+			width: 1200px;
+			overflow: hidden;
+			float: left;
+		}
+		ul,li{
+			list-style:none;
+		}
+		.box>span{
+			display: block;
+			width: 30px;
+			height: 50px;
+			text-align: center;.
+			cursor: pointer;
+			top:175px;
+			line-height: 50px;
+			background:red;
+			font-size: 30px;
+			position: absolute;
+			opacity: 0;
+		}
+		#left{
+			left: 30px;
+		}
+		#right{
+			right: 30px;
+		}
+		 .nav{
+            position: absolute;
+            left: 500px;
+            bottom:20px;
+            list-style-type: none;
+        }
+		.nav>li{
+            float: left;
+            width: 20px;
+            height: 20px;
+            background: #cccccc;
+            cursor: pointer;
+            margin: 0 10px;
+            border-radius: 50%;
+            font-size: 10px;
+			text-align: center;
+			line-height: 20px;
+        }
+		.nav .active{
+			background: red;
+		}
